@@ -43,6 +43,10 @@ The service will be available at http://localhost:8080.
    }
   ```
 
+### Redirect URL
+- **URL:** `/:id`
+- **Method:** `GET`
+- **Response:** Redirects to the original URL or returns 404 if the URL is expired or not found.
 
 ## Note
 - why choose MongoDB as a database?
@@ -56,7 +60,3 @@ The service will be available at http://localhost:8080.
 
 
 
-### Redirect URL
-- **URL:** `/:id`
-- **Method:** `GET`
-- **Response:** Redirects to the original URL or returns 404 if the URL is expired or not found.
